@@ -51,14 +51,13 @@ c2 = "\033[0;97m"
 c3 = "\033[1;31m"
 #MyLogo
 def logo():
-    os.system('echo -e "
-
-╭━━━┳╮
-┃╭━╮┃┃
-┃╰━━┫╰━┳━━┳━╮
-╰━━╮┃╭╮┃┃━┫╭╯
-┃╰━╯┃┃┃┃┃━┫┃
-╰━━━┻╯╰┻━━┻╯\n\n-----------------------------------------------\n\n➣ Codded By : KOHATI Hacker\n➣ Facebook  : markhoor404\n➣ Github    : https://github.com/Mrbadmash\n➣ Whatsap   : 03489153973\n\n-----------------------------------------------" | lolcat')
+ \033[0;97m╭━━━┳╮
+ \033[0;97m┃╭━╮┃┃
+ \033[0;97m┃╰━━┫╰━┳━━┳━╮
+ \033[0;97m╰━━╮┃╭╮┃┃━┫╭╯
+ \033[0;97m┃╰━╯┃┃┃┃┃━┫┃
+ \033[0;97m╰━━━┻╯╰┻━━┻╯
+\n\n-----------------------------------------------\n\n➣ Codded By : KOHATI Hacker\n➣ Facebook  : markhoor404\n➣ Github    : https://github.com/Mrbadmash\n➣ Whatsap   : 03489153973\n\n-----------------------------------------------" | lolcat')
 def method_menu():
     os.system("clear")
     logo()
